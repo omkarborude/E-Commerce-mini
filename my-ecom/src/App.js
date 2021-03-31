@@ -1,14 +1,13 @@
 
 import './App.css';
-
+import NavBar from "./Comenents/Navbar/navbar";
 function App() {
   return (
     <div className="App">
-      <h1>Omkar</h1>
+            <div>< NavBar /></div>
     </div>    
   );
 }
-
 
 export default App;
 
