@@ -1,0 +1,23 @@
+.container-fluid{
+    padding: 10px;
+    padding-left: 20px;
+    
+}
+.container-fluid .navbar-brand{
+    color: orangered;
+}
+.container-fluid .navbar-brand span{
+    color: black;
+}
+.container-fluid .nav-item{
+    font-size: 20px;
+    border-left: 5px solid white;
+}
+.container-fluid .d-flex{
+    padding-right: 40px;
+    font-size: 22px;
+}
+.container-fluid .d-flex a:hover{
+    cursor: pointer;
+    color: orangered;
+}
