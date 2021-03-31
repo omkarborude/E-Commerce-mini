@@ -17,6 +17,7 @@ export default function NavBar() {
       </ul>
       <form class="d-flex">
         <a> <i class="fas fa-shopping-cart"></i> Cart</a>
+        <a><i class="fas fa-user"></i> Sign in</a>
     </form>
           
   </div>

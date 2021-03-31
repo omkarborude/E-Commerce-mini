@@ -13,9 +13,10 @@
     font-size: 20px;
     border-left: 5px solid white;
 }
-.container-fluid .d-flex{
+.container-fluid .d-flex a{
     padding-right: 40px;
-    font-size: 22px;
+    font-size: 218x;
+    justify-content: space-evenly;
 }
 .container-fluid .d-flex a:hover{
     cursor: pointer;
