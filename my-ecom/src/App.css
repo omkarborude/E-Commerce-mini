@@ -1,4 +1,42 @@
 .App {
   text-align: center;
 }
-
+.showing-card{
+ 
+  display: flex;
+  padding: 10px;
+  height: auto;
+  flex-flow: wrap;
+  margin-top: 10px;
+}
+.inner-listing-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  margin:  0 auto;
+  margin-top: 10px;
+  
+}
+.productlist{
+  width: 300px;
+  height: 400px;
+  /* background-color: yellow; */
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+  padding: 10px;
+  border-radius: 15px;;
+  overflow: hidden;
+}
+.productlist:hover{
+  border-top : 1px solid black;
+}
+.imd-div {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: -15px;;
+}
+.imd-div img{
+  width: 250px;
+  height: 300px;
+  margin: 0 auto;
+}
