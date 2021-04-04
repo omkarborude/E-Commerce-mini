@@ -1,0 +1,11 @@
+.Filter-Wrap{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.Filter-Wrap .clear-filter{
+    color: black;
+    cursor: pointer;
+    padding: 1rem;
+
+}
