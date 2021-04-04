@@ -1,14 +1,15 @@
-import React from "react";
-
+import { StrictMode } from "react";
 import ReactDOM from "react-dom";
+import { productLists } from "./database";
 import App from "./App";
-import { DataProvider } from "./Comenents/Context/DataProvider";
+import { CartProvider } from "./cart-context";
 
+const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <React.StrictMode>
-    <DataProvider>
+  <StrictMode>
+    <CartProvider item={{ productLists }}>
       <App />
-    </DataProvider>
-  </React.StrictMode>,
-  document.getElementById("root")
+    </CartProvider>
+  </StrictMode>,
+  rootElement
 );
