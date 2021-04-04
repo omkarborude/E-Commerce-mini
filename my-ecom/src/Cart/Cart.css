@@ -1,0 +1,68 @@
+.Cart-Total-Value{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.Cart-Empty{
+    /* width: 100%; */
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+    color: orangered;
+}
+.Cart-Empty p{
+    color: black;
+    opacity: 0.7;
+}
+.Cart-Total-Value span{
+    color: red;
+    font-weight: 600;
+}
+.Cart-Product-Card{
+    max-width: 50%;
+    height: 15rem;
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 2rem;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+}
+
+.Cart-Product-Card .Cart-Product-div{
+    width: 50%  ;
+}
+.Cart-Product-Card .Cart-Product-Info{
+    padding: 1rem;
+}
+.Cart-Product-Card .Cart-Product-Info p{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.Cart-Product-Card .Cart-Product-Info button{
+    background-color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+}
+.Cart-Product-Card .Cart-Product-Info button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.Cart-Product-Card .Cart-Product-Info span{
+    font-size: 22px;
+    padding: 1rem;
+}
+
+.Cart-Product-Card .Cart-Product-Info h3{
+    color: red;
+    margin-bottom: 1rem;
+}
